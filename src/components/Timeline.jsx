@@ -1,13 +1,13 @@
 import React from 'react';
-import { FaClock, FaChurch, FaCamera, FaCocktail, FaUtensils, FaHeart } from 'react-icons/fa';
+import { FaClock, FaCamera, FaCocktail, FaUtensils, FaHome, FaMusic } from 'react-icons/fa';
 
 function Timeline() {
   const events = [
-    { time: '3:00 PM', description: 'Ceremonia', icon: <FaChurch className="text-2xl text-[#5D4037] mr-4" /> },
-    { time: '4:30 PM', description: 'Sesión de fotos', icon: <FaCamera className="text-2xl text-[#5D4037] mr-4" /> },
-    { time: '6:00 PM', description: 'Coctel de bienvenida', icon: <FaCocktail className="text-2xl text-[#5D4037] mr-4" /> },
-    { time: '7:30 PM', description: 'Cena y baile', icon: <FaUtensils className="text-2xl text-[#5D4037] mr-4" /> },
-    { time: '12:00 AM', description: 'Despedida de los novios', icon: <FaHeart className="text-2xl text-[#5D4037] mr-4" /> }
+    { time: '10:00 AM', description: 'Ceremonia', icon: <FaHome className="text-2xl text-[#5D4037] mr-4" /> },
+    { time: '11:00 AM', description: 'Sesión de fotos', icon: <FaCamera className="text-2xl text-[#5D4037] mr-4" /> },
+    { time: '11:30 AM', description: 'Coctel de bienvenida', icon: <FaCocktail className="text-2xl text-[#5D4037] mr-4" /> },
+    { time: '1:00 PM', description: 'Almuerzo', icon: <FaUtensils className="text-2xl text-[#5D4037] mr-4" /> },
+    { time: '3:00 PM', description: 'Fiesta general', icon: <FaMusic className="text-2xl text-[#5D4037] mr-4" /> }
   ];
 
   return (

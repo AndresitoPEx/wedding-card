@@ -7,7 +7,7 @@ function Header() {
     <header className="text-center py-16 ">
       <div className="flex justify-center items-center mt-4">
         <FaHeart className="text-red-500 mx-2" />
-        <p className="text-xl">¡Nos casamos!</p>
+        <p className="text-xl">¡NUESTRA BODA!</p>
         <FaHeart className="text-red-500 mx-2" />
       </div>
       <motion.h1 

@@ -33,7 +33,7 @@ function RSVP() {
 
   return (
     <section className="py-12 text-center">
-      <h2 className="text-3xl mb-6">Fecha de la Boda</h2>
+      <h2 className="text-3xl mb-6">Fecha de Nuestra Boda</h2>
       <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
         <Calendar
           className={"mx-auto"}

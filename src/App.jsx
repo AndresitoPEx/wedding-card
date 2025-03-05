@@ -5,7 +5,7 @@ import Countdown from "./components/Countdown";
 import Gallery from "./components/Gallery";
 import Location from "./components/Location";
 import RSVP from "./components/RSVP";
-import LoveStory from "./components/LoveStory";
+
 import OurSong from "./components/OurSong";
 import Bendicion from "./components/Bendicion";
 import Timeline from "./components/Timeline";
@@ -70,7 +70,7 @@ function App() {
           <Countdown />
           <OurSong />
           <Gallery />
-          <LoveStory />
+       
           <Bendicion />
           <Location />
           <RSVP />

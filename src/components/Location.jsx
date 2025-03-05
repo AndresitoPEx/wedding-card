@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 function Location() {
   return (
     <section className="text-center py-12">
-      <h2 className="text-3xl mb-6">Ubicación</h2>
+      <h2 className="text-3xl mb-6">Ceremonia Civil</h2>
       <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
         <FaMapMarkerAlt className="text-4xl mx-auto mb-4 text-red-500" />
         <h3 className="text-xl font-semibold">Lugar</h3>
