@@ -18,7 +18,6 @@ function Header() {
       >
         Alexander & Rosmery 
       </motion.h1>
-      <p className="mt-4 text-lg">Fecha del evento: 15 de Marzo, 2025</p>
     </header>
   );
 }
