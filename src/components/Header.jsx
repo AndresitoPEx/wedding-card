@@ -16,7 +16,7 @@ function Header() {
         transition={{ duration: 0.8 }}
         className="text-4xl md:text-6xl font-bold text-[#5D4037]"
       >
-        Rosmery & Alexander
+        Alexander & Rosmery 
       </motion.h1>
       <p className="mt-4 text-lg">Fecha del evento: 15 de Marzo, 2025</p>
     </header>
