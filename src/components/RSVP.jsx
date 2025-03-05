@@ -1,9 +1,11 @@
 import React from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+import "../styles/RSVP.css"; // Asegúrate de importar tu archivo CSS
 
 function RSVP() {
-  const eventDate = new Date(2025, 2, 15); // Fecha del evento (15 de marzo de 2025)
+  const eventDate = new Date(2025, 2, 15); // 15 de Marzo, 2025
+  const today = new Date();
 
   const handleAddToCalendar = () => {
     const event = {
@@ -25,8 +27,13 @@ function RSVP() {
   };
 
   const tileClassName = ({ date, view }) => {
-    if (view === "month" && date.getTime() === eventDate.getTime()) {
-      return "highlight";
+    if (view === "month") {
+      if (date.getTime() === eventDate.getTime()) {
+        return "react-calendar__tile--event";
+      }
+      if (date.toDateString() === today.toDateString()) {
+        return "react-calendar__tile--highlight";
+      }
     }
     return null;
   };

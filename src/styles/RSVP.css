@@ -1,0 +1,11 @@
+.react-calendar__tile--highlight {
+    border-radius: 20%; /* Hacer que el fondo sea un círculo */ 
+  }
+  
+  .react-calendar__tile--event {
+    background: #ff0000c5; /* Color para la fecha del evento */
+    color: white;
+    border-radius: 20%; /* Hacer que el fondo sea un círculo */
+    padding: 10px; /* Ajustar el padding para que el círculo sea visible */
+    border: 2px solid #000000; /* Agregar un borde para resaltar el círculo */
+  }

@@ -15,7 +15,7 @@ function Timeline() {
       <h2 className="text-4xl mb-8 text-[#5D4037]">Cronograma del Evento</h2>
       <div className="max-w-md mx-auto">
         <div className="p-8 rounded-lg">
-          <FaClock className="text-4xl mx-auto mb-4 text-indigo-500" />
+          <FaClock className="text-4xl mx-auto mb-4 text-red-500" />
           {events.map((event, index) => (
             <div 
               key={index} 

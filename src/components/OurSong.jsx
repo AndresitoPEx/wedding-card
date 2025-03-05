@@ -11,7 +11,7 @@ function OurSong() {
     <section className="py-10 text-center">
       <h2 className="text-4xl mb-8 text-[#5D4037]">Nuestra Canción</h2>
       <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
-        <FaMusic className="text-4xl mx-auto mb-4 text-blue-500" />
+        <FaMusic className="text-4xl mx-auto mb-4 text-red-500" />
         <h3 className="text-2xl mb-2">"Te voy a Amar"</h3>
         <p className="mb-4">Axel</p>
 
