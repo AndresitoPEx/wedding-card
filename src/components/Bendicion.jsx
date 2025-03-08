@@ -18,7 +18,7 @@ function Bendicion() {
       </div>
       
       <div className="mb-8">
-        <h3 className="text-2xl font-bold mb-4 text-gray-800">Padrinos</h3>
+        <h3 className="text-2xl font-bold mb-4 text-gray-800">Testigos</h3>
         <p className="text-1xl font-semibold text-gray-700">Roberto Luis Sanabria Meza</p>
         <p className="text-1xl font-semibold text-gray-700">Liliana Yupari Najera</p>
       </div>
